@@ -1,0 +1,1 @@
+Drinkin' Bros. Podcast skill for Amazon Alexa. Currently allows to ask for info on the newest episode as well as call for info on a specific episode number (9/27/18). To make this project your own, download or clone the project and install the dependencies using 'pip3 install -r requirements.txt'.
