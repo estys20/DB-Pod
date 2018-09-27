@@ -15,7 +15,7 @@ o   Pod description
 o   Pod published date
 o   Compare pod published date to today
 o   Format "aired date" to be only the day -- no time
-o   Lookup episode -- except can't get Ep 299.5
+x   Lookup episode -- except can't get Ep 299.5
 """
 
 
@@ -87,7 +87,7 @@ def specific_episode(episode_num):
         real_indx = pod_nums.index(episode_num)
         print(real_indx)
         pod_title, pod_desc, pod_date = pod_lookup(pod_num = real_indx)
-        speech_output = pod_title + "\n" + pod_desc + "\n" + "Aired on: " + str(pod_date)
+        speech_output = pod_title + ".\n" + pod_desc + "\n" + "Aired on " + str(pod_date) + "."
     except:
         err = True
         speech_output = "I'm sorry there was an error."

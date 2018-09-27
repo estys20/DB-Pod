@@ -4,9 +4,9 @@ beautifulsoup4==4.6.3
 certifi==2018.8.13
 cffi==1.11.5
 chardet==3.0.4
-click==6.7
+Click==7.0
 cryptography==2.1.4
-Flask==0.12.1
+Flask==1.0.2
 Flask-Ask==0.9.8
 idna==2.7
 itsdangerous==0.24
@@ -20,4 +20,5 @@ PyYAML==3.12
 requests==2.19.1
 six==1.11.0
 urllib3==1.23
+
 Werkzeug==0.14.1
