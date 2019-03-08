@@ -45,4 +45,4 @@ After using Docker to do install on an [AWS Lambda image](https://medium.com/@go
 
 Proceed at your own risk when developing for AWS Lambda with Python. My recommendation is to use a Docker container. Additionally, preparing your application for deployment is different with Python than with Node.js. 
 
-EDIT: I recommend reading [this](https://aws.amazon.com/premiumsupport/knowledge-center/build-python-lambda-deployment-package/). It wasn't out while I was developing this application, but its likely that this is the instruction I was missing. Best of luck.
+**EDIT:** I recommend reading [this](https://aws.amazon.com/premiumsupport/knowledge-center/build-python-lambda-deployment-package/). It wasn't out while I was developing this application, but its likely that this is the instruction I was missing. Best of luck.
