@@ -41,5 +41,8 @@ You can use [ngrok](https://ngrok.com/) to test the Alexa Skill in the Developer
 ## Note
 The reason for this skill going unpublished is because of permissions errors. I developed this skill on macOS; however, when attempting to upload to AWS Lambda, I received errors with a cryptography package (packages have to be zipped up with the run files for Python deployments to AWS Lambda). Specifically, the cryptography package must be installed on Linux OS before being uploaded to AWS Lambda as that is what their containers use.
 
-After using Docker to do install on an [AWS Lambda image](https://medium.com/@gotraveltoworld/use-docker-to-develop-the-aws-lambda-python-3-6-525007907369), I received errors relating to file permissions. I spent hours pouring articles and posts on how to fix this. I tried ```chmod 777```ing every file with in the directory and still no luck.
-I have succumbed to the difficulty of developing Alexa Skills with Python and did not succeed in publishing this basic skill. It was mainly a practice coding project to practice.
+After using Docker to do install on an [AWS Lambda image](https://medium.com/@gotraveltoworld/use-docker-to-develop-the-aws-lambda-python-3-6-525007907369), I received errors relating to file permissions. I spent hours pouring articles and posts on how to fix this. I tried to ```chmod 777``` every file and directory and still no luck.
+
+Proceed at your own risk when developing for AWS Lambda with Python. My recommendation is to use a Docker container. Additionally, preparing your application for deployment is different with Python than with Node.js. 
+
+EDIT: I recommend reading [this](https://aws.amazon.com/premiumsupport/knowledge-center/build-python-lambda-deployment-package/). It wasn't out while I was developing this application, but its likely that this is the instruction I was missing. Best of luck.
