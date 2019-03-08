@@ -9,9 +9,15 @@ The skill is based on using the requests library and an RSS feed parser to get i
 * Info about newest episode: 
   - Description
   - Date & time it was published (UTC)
- * Info about specific episode:
+* Info about specific episode:
   - Description
   - Date & time it was published (UTC)
 
 ## How to Use
-Create a Python
+Create a Python virtual enviroment (this should always be done for any Python project you work on really) and activate it.
+Currently it is recommended to using venv (already bundled with Python3.7) with Python3.7.
+
+```
+$python3 -m venv .
+source venv/bin/activate
+```
