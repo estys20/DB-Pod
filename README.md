@@ -21,7 +21,7 @@ As of Python3.5 it is recommended to use [venv](https://docs.python.org/3/librar
 
 ```
 $python3 -m venv venv
-source venv/bin/activate
+$source venv/bin/activate
 ```
 
 Next, we can install the dependencies using the ```requirements.txt``` file.
